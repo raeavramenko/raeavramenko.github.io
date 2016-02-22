@@ -1,0 +1,19 @@
+strong {
+	color: red;
+	font-family: helvetica;
+	font-style: oblique;
+}
+*{
+	background-color: gray;
+}
+p {
+	font-family: serif;
+	margin-left: 30%;
+}
+h2 {
+	font-family: impact;
+	margin-left: 30%;
+}
+#body {
+	margin-top: 100px;
+}

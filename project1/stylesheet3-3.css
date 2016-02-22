@@ -1,0 +1,12 @@
+#title {
+	position: fixed;
+	margin-top: -100px;
+	background-color: #A0D8F1;
+	width: 100%;
+}
+#body {
+	margin-top: 100px;
+}
+p strong {
+	position: fixed;
+}
