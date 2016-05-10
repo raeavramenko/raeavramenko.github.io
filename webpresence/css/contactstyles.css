@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Garamond,serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: #6a6e61;
+    background: url(../Images/Anxiety2.jpg);
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Typography */
+a {
+    color: #6a6e61;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a80505;
+}
+
+/* Header + Nav */
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    position: fixed;
+    bottom: 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+header nav ul li a {
+    font-size: 1.5em;
+}
+
+/* Layout */
+#logo {
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    z-index: 5;
+}
+
+p {
+    color: #6a6e61;
+}
+
+.blurb {
+    position: absolute;
+    top: 30%;
+    max-width: 50%;
+    z-index: 5;
+    left: 70px;
+}
+
+.blurb a {
+    color: #a80505;
+}
+
+.blurb a:hover {
+    color: #6a6e61;
+}
+
+.blurb img {
+    max-height: 17px;
+}
+
+/* Footer */
+footer {
+    max-width: 980px;
+    margin: 30px;
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 780px) {
+    nav {
+        position: fixed;
+        float: left;
+        bottom: 20px;
+    }
+
+    header nav ul li {
+        margin: 0 0 5px;
+        display: block;
+    }
+}

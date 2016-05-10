@@ -1,0 +1,11 @@
+* {
+	font-family: cursive;
+background-color: pink;
+}
+#big {font-weight: bolder;
+text-transform: uppercase;}
+#one {
+	border: 3px solid black;
+	width: 390px;
+	text-align: center;
+}

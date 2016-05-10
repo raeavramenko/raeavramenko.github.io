@@ -1,0 +1,173 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Garamond,serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: #6a6e61;
+    background: url(../Images/Anxiety.jpg);
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Typography */
+a {
+    color: #6a6e61;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a80505;
+}
+
+/* Header + Nav */
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    position: fixed;
+    bottom: 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+header nav ul li a {
+    font-size: 1.5em;
+}
+
+/* Layout */
+#logo {
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    z-index: 5;
+}
+
+#feature {
+    max-width: 35%;
+    height: auto;
+    right: 30px;
+    z-index: 4;
+    position: absolute;
+    bottom: 0;
+}
+
+#feature img {
+    max-height: 570px;
+}
+
+#featureright {
+    max-width: 35%;
+    height: auto;
+    right: 0;
+    z-index: 4;
+    position: absolute;
+    bottom: 0;
+}
+
+#featureright img {
+    max-height: 570px;
+}
+
+#featureright2 {
+    max-width: 45%;
+    height: auto;
+    right: 0;
+    z-index: 4;
+    position: absolute;
+    bottom: 0;
+}
+
+#featureright2 img {
+    max-height: 570px;
+}
+
+p {
+    color: #6a6e61;
+    column-span: all;
+}
+
+.blurb {
+    position: absolute;
+    top: 30%;
+    max-width: 50%;
+    z-index: 5;
+    left: 70px;
+}
+
+.blurb a {
+    color: #a80505;
+}
+
+.blurb img {
+    max-height: 22px;
+}
+
+#cut {
+    max-height: 15px;
+}
+
+#empty {
+    max-height: 19px;
+}
+
+#medium {
+    text-align: right;
+    font-size: 12px;
+    line-height: 1.4em;
+    padding-top: 6px;
+}
+
+#date {
+    text-align: right;
+    font-size: 12px;
+    line-height: 1.4em;
+    padding-top: 2px;
+}
+
+/* Footer */
+/* Media Queries */
+@media screen and (max-width: 780px) {
+    nav {
+        position: fixed;
+        float: left;
+        bottom: 20px;
+    }
+
+    header nav ul li {
+        margin: 0 0 5px;
+        display: block;
+    }
+}

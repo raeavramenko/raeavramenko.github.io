@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Garamond,serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4em;
+    color: black;
+}
+
+/* Typography */
+a:hover {
+    color: #a80505;
+}
+
+/* Header + Nav */
+
+/* Layout */
+
+/* Footer */
+
+/* Media Queries */
